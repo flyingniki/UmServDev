@@ -62,5 +62,23 @@ $eventManager->addEventHandler(
     ]
 );
 
+$eventManager->addEventHandler(
+    'crm',
+    'OnAfterCrmDealUpdate',
+    [
+        '\UmServe\Deals\Deal',
+        'OnAfterCrmDealUpdateHandler'
+    ]
+);
+
+$eventManager->addEventHandler(
+    'crm',
+    'OnAfterCrmDealAdd',
+    [
+        '\UmServe\Deals\Deal',
+        'OnAfterCrmDealAddHandler'
+    ]
+);
+
 /* */
 unset($eventManager);
