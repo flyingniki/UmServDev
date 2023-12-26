@@ -19,7 +19,7 @@ $arEmp[] = $managerId;
 
 // if incoming call && in_array($lead['ASSIGNED_BY_ID'], $arEmp)
 if (in_array($lead['SOURCE_ID'], [1, 2, 6]) && in_array($lead['ASSIGNED_BY_ID'], $arEmp)) {
-    // $dealAssigned = 'user_' . $lead['ASSIGNED_BY_ID'];
+    $dealAssigned = 'user_' . $lead['ASSIGNED_BY_ID'];
     // get phone number
     $dbResMultiFields = CCrmFieldMulti::GetList(
         array('ID' => 'asc'),

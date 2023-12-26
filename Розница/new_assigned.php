@@ -41,6 +41,8 @@ $res = CCrmDeal::GetListEx(array('DATE_CREATE' => 'ASC'), $arFilter, false, fals
 while ($row = $res->GetNext()) {
     if ($contactId && $contactId == $row['CONTACT_ID']) {
         $assignedId = $row['ASSIGNED_BY_ID'];
+        $dealFound = 'deal found with same contact';
+        $this->SetVariable('dealFound', $dealFound);
     }
 }
 

@@ -71,5 +71,14 @@ $eventManager->addEventHandler(
     ]
 );
 
+$eventManager->AddEventHandler(
+    "forum",
+    "onBeforeMessageAdd",
+    [
+        '\UmServe\Forum\Forum',
+        "onBeforeMessageAddHandler"
+    ]
+);
+
 /* */
 unset($eventManager);

@@ -37,6 +37,7 @@ class Deal
                     \CIMMessenger::Add($arMessage);
                 };
             }
+
             /**
              * Restricted if type of delivery is not 533
              */
@@ -51,11 +52,12 @@ class Deal
                     \CIMMessenger::Add($arMessage);
                 };
             }
+
             /**
-             * Restricted if in CATEGORY_ID = 12 STAGE_ID between NEW and LOSE and task is not completed
+             * Restricted if deal is in CATEGORY_ID == 12 && STAGE_ID between NEW and LOSE and task is not completed
              */
             if ($arDeal['CATEGORY_ID'] == 12) {
-                if ($arFields['STAGE_ID'] != 'C12:NEW' || $arFields['STAGE_ID'] != 'C12:LOSE') {
+                if ($arFields['STAGE_ID'] != 'C12:NEW' && $arFields['STAGE_ID'] != 'C12:LOSE') {
                     $obActivities = \CCrmActivity::GetList(
                         $arOrder = array(),
                         $arFilter = array('OWNER_TYPE_ID' => 2, 'OWNER_ID' => $arFields['ID'], 'CHECK_PERMISSIONS' => 'N'),
@@ -78,13 +80,13 @@ class Deal
                             "MESSAGE_TYPE" => 'S',
                             "TO_USER_ID" => $arFields["MODIFY_BY_ID"],
                         );
-                        // \CIMMessenger::Add($arMessage);
+                        \CIMMessenger::Add($arMessage);
                     }
                 }
             }
 
             /**
-             * Restricted if STAGE_ID == 'C13:UC_OICNLE'('Реализация') field "Тип доставки" has value "тест клиента"(1898)
+             * Restricted if STAGE_ID == 'C13:UC_OICNLE'(Реализация) field 'Тип доставки' has value 'тест клиента'(1898)
              */
             if ($arFields['STAGE_ID'] == 'C13:UC_OICNLE') {
                 if ($arDeal['UF_CRM_1696425191'] == 1898) {
@@ -97,6 +99,7 @@ class Deal
                     \CIMMessenger::Add($arMessage);
                 };
             }
+
             /**
              * Add value $arFields['STAGE_ID'] to CurrentStageId(UF_CRM_1697229927) field
              */
