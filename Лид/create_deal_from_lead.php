@@ -22,7 +22,9 @@ while ($rsEmployees = $arEmployees->fetch()) {
  */
 $arEmp[] = $managerId;
 
-// if incoming call && in_array($lead['ASSIGNED_BY_ID'], $arEmp)
+/**
+ * if incoming call && in_array($lead['ASSIGNED_BY_ID'], $arEmp)
+ */
 if (in_array($lead['SOURCE_ID'], [1, 2, 6]) && in_array($lead['ASSIGNED_BY_ID'], $arEmp)) {
     $dealCreateBy = $lead['ASSIGNED_BY_ID'];
 
@@ -51,7 +53,8 @@ if (in_array($lead['SOURCE_ID'], [1, 2, 6]) && in_array($lead['ASSIGNED_BY_ID'],
         }
 
         if (empty($arOtherLeadIds)) {
-            $leadCheck = 'current lead\'s number is unique. start to check deals';
+            // $leadCheck = 'Current lead\'s phone number is unique. Start to check open deals';
+            $leadCheck = 'Номер телефона из лида уникальный. Начинаем проверку открытых сделок';
             // echo $leadCheck;
 
             /**
@@ -82,7 +85,8 @@ if (in_array($lead['SOURCE_ID'], [1, 2, 6]) && in_array($lead['ASSIGNED_BY_ID'],
 
             if (!in_array($phone, $arContactPhones)) {
                 // echo 'convert lead';
-                $convert = 'convert lead';
+                // $convert = 'Phone is not in contacts. Start to convert lead';
+                $convert = 'Телефон не найден в контактах CRM. Начало конвертации лида в сделку';
 
                 /**
                  * true, если нужно проверять права текущего пользователя.
@@ -255,20 +259,24 @@ if (in_array($lead['SOURCE_ID'], [1, 2, 6]) && in_array($lead['ASSIGNED_BY_ID'],
                 }
             } else {
                 // echo "don't convert lead";
-                $convert = 'don\'t convert lead';
+                // $convert = 'Found same phone number. Don\'t convert lead';
+                $convert = 'Найден номер в контактах CRM. Не конвертируем лид';
             }
             $this->SetVariable('convert', $convert);
         } else {
-            $leadCheck = 'found leads with same phone. don\'t convert lead';
+            // $leadCheck = 'Found leads with same phone. Don\'t convert lead';
+            $leadCheck = 'Найдены сделки с таким же номеров телефона. Не конвертируем лид';
             // echo $leadCheck;
         }
     } else {
         // echo "don't convert lead";
-        $leadCheck = 'lead\'s phone is empty. don\'t convert lead';
+        // $leadCheck = 'Lead\'s phone is empty. Don\'t convert lead';
+        $leadCheck = 'Номер телефона лида пустой. Не конвертируем лид';
     }
 } else {
     // echo "don't convert lead";
-    $leadCheck = 'another source of lead. don\'t convert lead';
+    // $leadCheck = 'Another source of lead or lead assigned from another department. Don\'t convert lead';
+    $leadCheck = 'Иной источник лида либо ответственный за лид из другого подразделения. Не конвертируем лид';
 }
 
 $this->SetVariable('source_id', $lead['SOURCE_ID']);
