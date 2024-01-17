@@ -35,14 +35,14 @@ $eventManager->addEventHandler(
     ]
 );
 
-$eventManager->addEventHandler(
-    'tasks',
-    'OnBeforeTaskUpdate',
-    [
-        '\UmServe\Tasks\Task',
-        'OnBeforeTaskUpdateHandler'
-    ]
-);
+// $eventManager->addEventHandler(
+//     'tasks',
+//     'OnBeforeTaskUpdate',
+//     [
+//         '\UmServe\Tasks\Task',
+//         'OnBeforeTaskUpdateHandler'
+//     ]
+// );
 
 $eventManager->addEventHandler(
     'crm',
@@ -50,24 +50,6 @@ $eventManager->addEventHandler(
     [
         '\UmServe\Deals\Deal',
         'OnBeforeCrmDealUpdateHandler'
-    ]
-);
-
-// $eventManager->addEventHandler(
-//     'crm',
-//     'OnAfterCrmDealUpdate',
-//     [
-//         '\UmServe\Deals\Deal',
-//         'OnAfterCrmDealUpdateHandler'
-//     ]
-// );
-
-$eventManager->addEventHandler(
-    'crm',
-    'OnAfterCrmDealAdd',
-    [
-        '\UmServe\Deals\Deal',
-        'OnAfterCrmDealAddHandler'
     ]
 );
 

@@ -39,7 +39,7 @@ class Forum
 
     public static function getBindedDealsFromTask($id)
     {
-        \CModule::IncludeModule('task');
+        \CModule::IncludeModule('tasks');
         $rsTask = \CTasks::GetByID($id);
         if ($arTask = $rsTask->Fetch()) {
             $crmFields = $arTask['UF_CRM_TASK'];

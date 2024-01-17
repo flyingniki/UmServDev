@@ -4,7 +4,6 @@ namespace Bitrix\Crm\Timeline;
 
 use Bitrix\Main;
 use Bitrix\Main\Text\Emoji;
-use Exception;
 use Bitrix\Main\SystemException;
 
 class CommentEntry extends TimelineEntry

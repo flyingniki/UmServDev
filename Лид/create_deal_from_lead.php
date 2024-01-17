@@ -26,7 +26,6 @@ $arEmp[] = $managerId;
  * if incoming call && in_array($lead['ASSIGNED_BY_ID'], $arEmp)
  */
 if (in_array($lead['SOURCE_ID'], [1, 2, 6]) && in_array($lead['ASSIGNED_BY_ID'], $arEmp)) {
-    $dealCreateBy = $lead['ASSIGNED_BY_ID'];
 
     /**
      * get lead phone number
@@ -265,7 +264,7 @@ if (in_array($lead['SOURCE_ID'], [1, 2, 6]) && in_array($lead['ASSIGNED_BY_ID'],
             $this->SetVariable('convert', $convert);
         } else {
             // $leadCheck = 'Found leads with same phone. Don\'t convert lead';
-            $leadCheck = 'Найдены сделки с таким же номеров телефона. Не конвертируем лид';
+            $leadCheck = 'Найдены сделки с таким же номером телефона. Не конвертируем лид';
             // echo $leadCheck;
         }
     } else {
@@ -276,7 +275,7 @@ if (in_array($lead['SOURCE_ID'], [1, 2, 6]) && in_array($lead['ASSIGNED_BY_ID'],
 } else {
     // echo "don't convert lead";
     // $leadCheck = 'Another source of lead or lead assigned from another department. Don\'t convert lead';
-    $leadCheck = 'Иной источник лида либо ответственный за лид из другого подразделения. Не конвертируем лид';
+    $leadCheck = 'Иной источник лида (не входящий звонок) либо ответственный за лид из другого подразделения. Не конвертируем лид';
 }
 
 $this->SetVariable('source_id', $lead['SOURCE_ID']);

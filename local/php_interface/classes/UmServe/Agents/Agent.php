@@ -68,7 +68,7 @@ class Agent
         }
 
         foreach ($result as $categoryId => $arDealAcivity) {
-            foreach ($arDealAcivity as $arStatus) {
+            foreach ($arDealAcivity as $dealID => $arStatus) {
                 $arStatus = array_unique($arStatus);
                 if (in_array('EXPIRED', $arStatus)) {
                     $final[$categoryId]['EXPIRED']++;
@@ -109,9 +109,90 @@ class Agent
             mail($email, $subject, $fullReport, $headers);
         }
 
-        mail('grigoriev@umserv.ru', $subject, $logisticsReport, $headers);
+        mail('grigorieva@umserv.ru', $subject, $logisticsReport, $headers);
         mail('zaharov@umserv.ru', $subject, $saleReport, $headers);
 
         return 'UmServe\Agents\Agent::dealAnalytics();';
+    }
+
+    public static function getArrayDealID()
+    {
+        \CModule::IncludeModule('crm');
+
+        $arFilter = array(
+            'CATEGORY_ID' => 15,
+            'CLOSED' => 'N',
+            'CHECK_PERMISSIONS' => 'N'
+        );
+        $arSelect = array('ID', 'CATEGORY_ID', 'STAGE_ID');
+        $res = \CCrmDeal::GetListEx(array('ID' => 'DESC'), $arFilter, false, false, $arSelect, array());
+        while ($arDeal = $res->Fetch()) {
+            // print_r($arDeal);
+            $arDealID[] = $arDeal['ID'];
+        }
+
+        return $arDealID;
+    }
+
+    public static function getCommentsList($entityId)
+    {
+        $dbResult = \Bitrix\Crm\Timeline\Entity\TimelineTable::getList(array(
+            'order' => array('ID' => 'DESC'),
+            'select' => array('ID', 'COMMENT', 'AUTHOR_ID', 'CREATED', 'ASSOCIATED_ENTITY_ID'),
+            'filter' => ['TYPE_ID' => 7, 'BINDINGS.ENTITY_ID' => $entityId],
+        ));
+        while ($fields = $dbResult->fetch()) {
+            $commentList[] = is_array($fields) && $fields['COMMENT'] ? [
+                'COMMENT' => $fields['COMMENT'],
+                'AUTHOR_ID' => $fields['AUTHOR_ID'],
+                'DATE_CREATE' => $fields['CREATED']->toString(new \Bitrix\Main\Context\Culture(array()))
+            ] : null;
+        }
+
+        return $commentList;
+    }
+
+    public static function getUserName()
+    {
+        $by = 'id';
+        $order = 'ASC';
+        $filter = array('ACTIVE' => 'Y', 'GROUPS_ID' => array(11));
+        $arParams = array('FIELDS' => array('ID', 'NAME', 'LAST_NAME'));
+
+        $rsUsers = \CUser::GetList($by, $order, $filter, $arParams);
+
+        while ($user = $rsUsers->Fetch()) {
+            $arUserName[$user['ID']] = $user['NAME'] . ' ' . $user['LAST_NAME'];
+        }
+
+        return $arUserName;
+    }
+
+    public static function commentReport()
+    {
+        $arDealID = self::getArrayDealID();
+        $arUserName = self::getUserName();
+        foreach ($arDealID as $dealID) {
+            $list[$dealID] = self::getCommentsList($dealID);
+        }
+
+        $commentReport = '';
+
+        foreach ($list as $dealID => $arComments) {
+            $commentReport .= '<b>ID  сделки:</b> ' . $dealID . '<br>';
+            foreach ($arComments as $comment) {
+                $commentReport .= '<u>Комментарий:</u> ' . $comment['COMMENT'] . '<br>' . '<u>Дата создания:</u> ' . $comment['DATE_CREATE'] . '<br>' . '<u>Автор:</u> ' . $arUserName[$comment['AUTHOR_ID']] . '<br><br>';
+            }
+        }
+
+        $subject = 'Отчет по комментариям в воронке Enterprise';
+        $headers  = 'Content-type: text/html; charset=UTF-8';
+        $arEmail = ['nikitin@umserv.ru'];
+
+        foreach ($arEmail as $email) {
+            mail($email, $subject, $commentReport, $headers);
+        }
+
+        return 'UmServe\Agents\Agent::commentReport();';
     }
 }
