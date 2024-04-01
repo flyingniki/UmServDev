@@ -4,7 +4,7 @@ $assignedId = mb_substr('{{Ответственный}}', 5);
 
 switch ($assignedId) {
     case 8:
-        $purchasingManager = 212;
+        $purchasingManager = 525;
         break;
     case 325:
         $purchasingManager = 525;
@@ -30,6 +30,9 @@ switch ($assignedId) {
     case 327:
         $purchasingManager = 525;
         break;
+    case 1095:
+        $purchasingManager = 525;
+        break;
 
     default:
         $purchasingManager = '';
@@ -38,22 +41,25 @@ switch ($assignedId) {
 
 switch ($assignedId) {
     case 325:
-        $assistant = 42;
+        $assistant = 1088;
         break;
     case 8:
-        $assistant = 42;
+        $assistant = 1088;
         break;
     case 46:
         $assistant = 42;
         break;
     case 321:
-        $assistant = 338;
+        $assistant = 42;
         break;
     case 273:
         $assistant = 338;
         break;
     case 327:
         $assistant = 338;
+        break;
+    case 1095:
+        $assistant = 42;
         break;
 
     default:
@@ -79,6 +85,9 @@ switch ($assignedId) {
         break;
     case 327:
         $productManager = 197;
+        break;
+    case 1095:
+        $productManager = 23;
         break;
 
     default:
