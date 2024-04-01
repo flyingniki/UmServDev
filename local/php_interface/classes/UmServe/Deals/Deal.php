@@ -13,7 +13,7 @@ class Deal
             "ID" => $arFields["ID"],
             "CHECK_PERMISSIONS" => "N"
         );
-        $arSelect = array('ID', 'COMPANY_ID', 'CATEGORY_ID', 'STAGE_ID', 'UF_CRM_1694010552', 'UF_CRM_1696705078', 'UF_CRM_1696425191', 'UF_CRM_1697191297');
+        $arSelect = array('ID', 'COMPANY_ID', 'CATEGORY_ID', 'STAGE_ID', 'UF_CRM_1694010552', 'UF_CRM_1696425191');
         $res = \CCrmDeal::GetListEx(array(), $arFilter, false, false, $arSelect, array());
         if ($arDeal = $res->Fetch()) {
             /**
