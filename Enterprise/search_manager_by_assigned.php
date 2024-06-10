@@ -28,10 +28,19 @@ switch ($assignedId) {
         $purchasingManager = 525;
         break;
     case 327:
-        $purchasingManager = 525;
+        $purchasingManager = 1099;
         break;
     case 1095:
-        $purchasingManager = 525;
+        $purchasingManager = 1099;
+        break;
+    case 1105:
+        $purchasingManager = 1099;
+        break;
+    case 1107:
+        $purchasingManager = 1075;
+        break;
+    case 1111:
+        $purchasingManager = 1075;
         break;
 
     default:
@@ -44,7 +53,7 @@ switch ($assignedId) {
         $assistant = 1088;
         break;
     case 8:
-        $assistant = 1088;
+        $assistant = 42;
         break;
     case 46:
         $assistant = 42;
@@ -60,6 +69,15 @@ switch ($assignedId) {
         break;
     case 1095:
         $assistant = 42;
+        break;
+    case 1105:
+        $assistant = 1101;
+        break;
+    case 1107:
+        $assistant = 1101;
+        break;
+    case 1111:
+        $assistant = 338;
         break;
 
     default:

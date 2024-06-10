@@ -2,12 +2,17 @@
 
 CModule::IncludeModule("crm");
 
-$departmentId = 712;
+$departmentId = 713;
 $arSelect = ['ID', 'NAME', 'LAST_NAME'];
 $arEmployees = CIntranetUtils::GetDepartmentEmployees($departmentId, false, false, 'Y', $arSelect);
 
 $managerLogisticsId = CIntranetUtils::GetDepartmentManagerID($departmentId);
 
-$arStorekeeper[] = 'user_' . $managerLogisticsId;
+while ($rsEmployees = $arEmployees->fetch()) {
+    if ($rsEmployees['ID'] == $managerLogisticsId) {
+        continue;
+    }
+    $arEmp[] = 'user_' . $rsEmployees['ID'];
+}
 
-$this->SetVariable('arStorekeeper', $arStorekeeper);
+$this->SetVariable('managerLogisticsId', $arEmp);

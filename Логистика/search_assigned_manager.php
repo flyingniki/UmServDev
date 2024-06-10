@@ -10,7 +10,7 @@ $departmentId = 708; // Отдел закупок и логистики
 $directorLogisticsId = CIntranetUtils::GetDepartmentManagerID($departmentId);
 
 while ($rsEmployees = $arEmployees->fetch()) {
-    if ($rsEmployees['ID'] == $directorLogisticsId || $rsEmployees['ID'] != 309) { // Только И. Куракин ID: 309
+    if ($rsEmployees['ID'] == $directorLogisticsId || $rsEmployees['ID'] != 309) { // Только М. Карасева ID: 309
         continue;
     }
     $arEmp[] = 'user_' . $rsEmployees['ID'];
@@ -20,7 +20,7 @@ $managerId = mb_substr('{{МПП}}', 5);
 
 switch ($managerId) {
     case 46:
-        $arEmp = ['user_' . 274];
+        $arEmp = ['user_' . 212];
         $flagText = true;
         break;
     case 8:
@@ -36,11 +36,11 @@ switch ($managerId) {
         $flagText = true;
         break;
     case 273:
-        $arEmp = ['user_' . 481];
+        $arEmp = ['user_' . 212];
         $flagText = true;
         break;
     case 321:
-        $arEmp = ['user_' . 481];
+        $arEmp = ['user_' . 212];
         $flagText = true;
         break;
 
