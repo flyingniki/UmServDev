@@ -1,6 +1,6 @@
 <?php
 
-if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
+if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 
 use Bitrix\Main\Text\HtmlFilter;
 use Bitrix\Main\Page\Asset;
@@ -9,32 +9,28 @@ CJSCore::init(['uf']);
 
 $arResult['targetBlank'] = ($arResult['userField']['SETTINGS']['TARGET_BLANK'] ?? 'Y');
 
-foreach($arResult['value'] as $key => $value)
-{
-	if($value)
-	{
+foreach ($arResult['value'] as $key => $value) {
+	if ($value) {
 		$value = (int)$value;
 		$tag = '';
 
 		$fileInfo = \CFile::GetFileArray($value);
-		if($fileInfo)
-		{
+		if ($fileInfo) {
 			//
 			$fileInfo['additionals']  = 'data-viewer="null"';
 			$fileInfo['additionals'] .= " data-bx-download='/upload/{$fileInfo["SUBDIR"]}/{$fileInfo["FILE_NAME"]}'";
-			$fileInfo['additionals'] .= " data-title='".HtmlFilter::encode($fileInfo['ORIGINAL_NAME'])."'";
+			$fileInfo['additionals'] .= " data-title='" . HtmlFilter::encode($fileInfo['ORIGINAL_NAME']) . "'";
 			$fileInfo['additionals'] .= " data-actions='[{\"type\":\"download\"}]'";
 
 			$mimeType = "unknown";
 
-			$fileInfo['additionals'] .= " data-mime-type='".$fileInfo['CONTENT_TYPE']."'";
+			$fileInfo['additionals'] .= " data-mime-type='" . $fileInfo['CONTENT_TYPE'] . "'";
 
-			if ( in_array($fileInfo['CONTENT_TYPE'], [
+			if (in_array($fileInfo['CONTENT_TYPE'], [
 				"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
 				"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 				"application/pdf"
-			]))
-			{
+			])) {
 				//$mimeType = "cloud-document";
 				//$fileInfo['additionals']  = str_replace('data-viewer="null"', 'data-viewer=""', $fileInfo['additionals']);
 				//$fileInfo['additionals'] .= ' data-viewer-type-class="BX.Disk.Viewer.OnlyOfficeItem"';
@@ -45,7 +41,7 @@ foreach($arResult['value'] as $key => $value)
 				$mimeType = "document";
 			}
 
-			if ( in_array($fileInfo['CONTENT_TYPE'], [
+			if (in_array($fileInfo['CONTENT_TYPE'], [
 				"audio/basic",
 				"audio/L24",
 				"audio/mp4",
@@ -58,12 +54,11 @@ foreach($arResult['value'] as $key => $value)
 				"audio/vnd",
 				"audio/vnd",
 				"audio/webm",
-			]))
-			{
+			])) {
 				$mimeType = "audio";
 			}
 
-			if ( in_array($fileInfo['CONTENT_TYPE'], [
+			if (in_array($fileInfo['CONTENT_TYPE'], [
 				'video/mpeg',
 				'video/mp4',
 				'video/ogg',
@@ -74,11 +69,10 @@ foreach($arResult['value'] as $key => $value)
 				'video/x',
 				'video/3gpp',
 				'video/3gpp2',
-			]))
-			{
+			])) {
 				$mimeType = "video";
 			}
-			$fileInfo['additionals'] .= "data-viewer-type='".$mimeType."'";
+			$fileInfo['additionals'] .= "data-viewer-type='" . $mimeType . "'";
 			$arResult['value'][$key] = $fileInfo;
 		}
 	}
@@ -90,8 +84,7 @@ foreach($arResult['value'] as $key => $value)
 
 $component = $this->getComponent();
 
-if($component->isMobileMode())
-{
+if ($component->isMobileMode()) {
 	Asset::getInstance()->addJs(
 		'/bitrix/js/mobile/userfield/mobile_field.js'
 	);

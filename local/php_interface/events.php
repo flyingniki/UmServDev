@@ -21,7 +21,7 @@ $eventManager->addEventHandler(
     'main',
     'OnUserTypeBuildList',
     [
-        '\Flah\Fields\UserField\Workgroup',
+        '\Umserv\Flah\Fields\UserField\Workgroup',
         'getUserTypeDescription'
     ]
 );
@@ -30,7 +30,7 @@ $eventManager->addEventHandler(
     'tasks',
     'OnBeforeTaskAdd',
     [
-        '\UmServe\Tasks\Task',
+        '\Umserv\Umsoft\Tasks\Task',
         'OnBeforeTaskAddHandler'
     ]
 );
@@ -39,7 +39,7 @@ $eventManager->addEventHandler(
 //     'tasks',
 //     'OnBeforeTaskUpdate',
 //     [
-//         '\UmServe\Tasks\Task',
+//         '\Umserv\Umsoft\Tasks\Task',
 //         'OnBeforeTaskUpdateHandler'
 //     ]
 // );
@@ -48,17 +48,26 @@ $eventManager->addEventHandler(
     'crm',
     'OnBeforeCrmDealUpdate',
     [
-        '\UmServe\Deals\Deal',
+        '\Umserv\Umsoft\Deals\Deal',
         'OnBeforeCrmDealUpdateHandler'
     ]
 );
 
 $eventManager->AddEventHandler(
-    "forum",
-    "onBeforeMessageAdd",
+    'forum',
+    'onBeforeMessageAdd',
     [
-        '\UmServe\Forum\Forum',
-        "onBeforeMessageAddHandler"
+        '\Umserv\Umsoft\Forum\Forum',
+        'onBeforeMessageAddHandler'
+    ]
+);
+
+$eventManager->AddEventHandler(
+    'crm',
+    'OnBeforeCrmContactDelete',
+    [
+        '\Umserv\Umsoft\Contacts\Contact',
+        'OnBeforeCrmContactDeleteHandler'
     ]
 );
 

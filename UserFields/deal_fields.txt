@@ -1,0 +1,2095 @@
+[256] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604403389996
+        [MULTIPLE] => N
+        [TITLE_RU] => КП
+        [SORT] => 100
+    )
+
+[257] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604403401930
+        [MULTIPLE] => N
+        [TITLE_RU] => Счет
+        [SORT] => 100
+    )
+
+[259] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604405508011
+        [MULTIPLE] => N
+        [TITLE_RU] => Крайний срок подачи заявки
+        [SORT] => 100
+    )
+
+[771] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1652782225697
+        [MULTIPLE] => N
+        [TITLE_RU] => Софт
+        [SORT] => 100
+    )
+
+[260] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604405560441
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата проведения конкурса
+        [SORT] => 100
+    )
+
+[261] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604405575540
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата уведомления о  результатах конкурса
+        [SORT] => 100
+    )
+
+[262] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604405593671
+        [MULTIPLE] => N
+        [TITLE_RU] => Крайний срок подписания договора
+        [SORT] => 100
+    )
+
+[263] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604405643360
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип подписи договора
+        [SORT] => 100
+    )
+
+[264] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604405666814
+        [MULTIPLE] => N
+        [TITLE_RU] => Требуется ли обеспечительный платеж
+        [SORT] => 100
+    )
+
+[265] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604405697050
+        [MULTIPLE] => N
+        [TITLE_RU] => Размер обеспечительного платежа
+        [SORT] => 100
+    )
+
+[266] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604406238146
+        [MULTIPLE] => N
+        [TITLE_RU] => Направление
+        [SORT] => 100
+    )
+
+[523] => Array
+    (
+        [FIELD_NAME] => UF_CRM_60795D8C7AED9
+        [MULTIPLE] => N
+        [TITLE_RU] => Спецификация
+        [SORT] => 100
+    )
+
+[524] => Array
+    (
+        [FIELD_NAME] => UF_CRM_60795D8C99676
+        [MULTIPLE] => N
+        [TITLE_RU] => Реквизиты
+        [SORT] => 100
+    )
+
+[285] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1605086021582
+        [MULTIPLE] => N
+        [TITLE_RU] => Наименование/модель
+        [SORT] => 100
+    )
+
+[286] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1605086086633
+        [MULTIPLE] => N
+        [TITLE_RU] => Вид ремонта
+        [SORT] => 100
+    )
+
+[287] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1605086103538
+        [MULTIPLE] => N
+        [TITLE_RU] => Комплектность оборудования
+        [SORT] => 100
+    )
+
+[288] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1605086162972
+        [MULTIPLE] => N
+        [TITLE_RU] => Описание неисправности
+        [SORT] => 100
+    )
+
+[546] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1623221240435
+        [MULTIPLE] => N
+        [TITLE_RU] => Новый файл
+        [SORT] => 100
+    )
+
+[293] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1605182921
+        [MULTIPLE] => N
+        [TITLE_RU] => Серийный/Инвентарный номер
+        [SORT] => 100
+    )
+
+[296] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1606373403944
+        [MULTIPLE] => N
+        [TITLE_RU] => Защита от двойного запуска
+        [SORT] => 100
+    )
+
+[299] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1607076850168
+        [MULTIPLE] => N
+        [TITLE_RU] => Тестирование оборудования
+        [SORT] => 100
+    )
+
+[301] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1607086380923
+        [MULTIPLE] => N
+        [TITLE_RU] => Тестирование оборудование (да/нет)
+        [SORT] => 100
+    )
+
+[303] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1607499526862
+        [MULTIPLE] => N
+        [TITLE_RU] => Протокол конкурса
+        [SORT] => 100
+    )
+
+[304] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1607503245567
+        [MULTIPLE] => N
+        [TITLE_RU] => Другое
+        [SORT] => 100
+    )
+
+[2355] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1708603759111
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата фактической доставки до клиента
+        [SORT] => 100
+    )
+
+[308] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1608896678533
+        [MULTIPLE] => N
+        [TITLE_RU] => Запретить смену
+        [SORT] => 100
+    )
+
+[309] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1608899973
+        [MULTIPLE] => N
+        [TITLE_RU] => Стадия - Основное
+        [SORT] => 100
+    )
+
+[310] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1608900414
+        [MULTIPLE] => N
+        [TITLE_RU] => Стадия - Входящая заявка
+        [SORT] => 100
+    )
+
+[311] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1608900437
+        [MULTIPLE] => N
+        [TITLE_RU] => Стадия - Сервис
+        [SORT] => 100
+    )
+
+[2359] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1709028435319
+        [MULTIPLE] => N
+        [TITLE_RU] => Причина закрытия сделки (подробно)
+        [SORT] => 100
+    )
+
+[312] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1608900455
+        [MULTIPLE] => N
+        [TITLE_RU] => Стадия - Тендер
+        [SORT] => 100
+    )
+
+[584] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_UID
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: client_id
+        [SORT] => 100
+    )
+
+[587] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_CID
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: client_cid
+        [SORT] => 100
+    )
+
+[590] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_YA_CID
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: ya_client_id
+        [SORT] => 100
+    )
+
+[1102] => Array
+    (
+        [FIELD_NAME] => UF_CRM_6454DADCF1206
+        [MULTIPLE] => N
+        [TITLE_RU] => Выручка
+        [SORT] => 100
+    )
+
+[1103] => Array
+    (
+        [FIELD_NAME] => UF_CRM_6454DADD1ED27
+        [MULTIPLE] => N
+        [TITLE_RU] => Вид деятельности
+        [SORT] => 100
+    )
+
+[593] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_CITY
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Город
+        [SORT] => 100
+    )
+
+[596] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_SOURCE
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Источник
+        [SORT] => 100
+    )
+
+[599] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_MEDIUM
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Канал
+        [SORT] => 100
+    )
+
+[602] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_CAMPAIGN
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Кампания
+        [SORT] => 100
+    )
+
+[1115] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1684149673659
+        [MULTIPLE] => N
+        [TITLE_RU] => Требуется подбор оборудования?
+        [SORT] => 100
+    )
+
+[605] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_CONTENT
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Содержимое
+        [SORT] => 100
+    )
+
+[352] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1610542034261
+        [MULTIPLE] => N
+        [TITLE_RU] => Test field
+        [SORT] => 100
+    )
+
+[608] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_TERM
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Что искал
+        [SORT] => 100
+    )
+
+[353] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1610542564896
+        [MULTIPLE] => N
+        [TITLE_RU] => Новый файл
+        [SORT] => 100
+    )
+
+[1121] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1685112805
+        [MULTIPLE] => N
+        [TITLE_RU] => Юридический адрес (СБИС)
+        [SORT] => 100
+    )
+
+[1122] => Array
+    (
+        [FIELD_NAME] => UF_CRM_SBIS_FIELD
+        [MULTIPLE] => N
+        [TITLE_RU] => СБИС. Информация о компании
+        [SORT] => 100
+    )
+
+[611] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_DURATION
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Время на сайте
+        [SORT] => 100
+    )
+
+[614] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_PAGE
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Страница звонка
+        [SORT] => 100
+    )
+
+[617] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_CONTEXT
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Контекст вызова
+        [SORT] => 100
+    )
+
+[620] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_CUSTOM
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Custom
+        [SORT] => 100
+    )
+
+[2412] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1716887168308
+        [MULTIPLE] => N
+        [TITLE_RU] => 123
+        [SORT] => 100
+    )
+
+[1133] => Array
+    (
+        [FIELD_NAME] => UF_CRM_6474893ECF0BB
+        [MULTIPLE] => N
+        [TITLE_RU] => Instagram_WZ
+        [SORT] => 100
+    )
+
+[1134] => Array
+    (
+        [FIELD_NAME] => UF_CRM_6474893F21B68
+        [MULTIPLE] => N
+        [TITLE_RU] => VK_WZ
+        [SORT] => 100
+    )
+
+[623] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_WID_NAME
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Имя виджета
+        [SORT] => 100
+    )
+
+[1135] => Array
+    (
+        [FIELD_NAME] => UF_CRM_6474893F397A7
+        [MULTIPLE] => N
+        [TITLE_RU] => Avito_WZ
+        [SORT] => 100
+    )
+
+[1136] => Array
+    (
+        [FIELD_NAME] => UF_CRM_6474893F55D48
+        [MULTIPLE] => N
+        [TITLE_RU] => TelegramUsername_WZ
+        [SORT] => 100
+    )
+
+[1137] => Array
+    (
+        [FIELD_NAME] => UF_CRM_6474893F6E185
+        [MULTIPLE] => N
+        [TITLE_RU] => TelegramId_WZ
+        [SORT] => 100
+    )
+
+[626] => Array
+    (
+        [FIELD_NAME] => UF_CRM_DCT_TYPE
+        [MULTIPLE] => N
+        [TITLE_RU] => ДКТ: Тип заявки
+        [SORT] => 100
+    )
+
+[629] => Array
+    (
+        [FIELD_NAME] => UF_CRM_ROISTAT
+        [MULTIPLE] => N
+        [TITLE_RU] => roistat
+        [SORT] => 100
+    )
+
+[1914] => Array
+    (
+        [FIELD_NAME] => UF_CRM_PROFIT_TIME_NOW
+        [MULTIPLE] => N
+        [TITLE_RU] => Время клиента
+        [SORT] => 100
+    )
+
+[893] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F02D792
+        [MULTIPLE] => N
+        [TITLE_RU] => КПП
+        [SORT] => 100
+    )
+
+[894] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F043431
+        [MULTIPLE] => N
+        [TITLE_RU] => Юр.адрес
+        [SORT] => 100
+    )
+
+[1918] => Array
+    (
+        [FIELD_NAME] => UF_CRM_TIMEZONE_PROFIT
+        [MULTIPLE] => N
+        [TITLE_RU] => Часовой пояс (для фильтра)
+        [SORT] => 100
+    )
+
+[895] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F05921A
+        [MULTIPLE] => N
+        [TITLE_RU] => Фактический адрес
+        [SORT] => 100
+    )
+
+[896] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F06E84E
+        [MULTIPLE] => N
+        [TITLE_RU] => Почтовый адрес
+        [SORT] => 100
+    )
+
+[897] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F0818F0
+        [MULTIPLE] => N
+        [TITLE_RU] => №п.п
+        [SORT] => 100
+    )
+
+[1153] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1685555413
+        [MULTIPLE] => N
+        [TITLE_RU] => Нужен ремонт?
+        [SORT] => 100
+    )
+
+[898] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F09340D
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата
+        [SORT] => 100
+    )
+
+[899] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F0A62F6
+        [MULTIPLE] => N
+        [TITLE_RU] => Событие
+        [SORT] => 100
+    )
+
+[900] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F0BE5EF
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип звонка
+        [SORT] => 100
+    )
+
+[901] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F0D4A61
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип исходящего звонка
+        [SORT] => 100
+    )
+
+[390] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1610544022860
+        [MULTIPLE] => N
+        [TITLE_RU] => Новый файл
+        [SORT] => 100
+    )
+
+[902] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F0EE0FF
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип входящего звонка
+        [SORT] => 100
+    )
+
+[391] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1610545559803
+        [MULTIPLE] => N
+        [TITLE_RU] => Новый файл
+        [SORT] => 100
+    )
+
+[903] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F10FB8B
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип встречи
+        [SORT] => 100
+    )
+
+[904] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F126289
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип входящего письма
+        [SORT] => 100
+    )
+
+[905] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F13A529
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип исходящего письма
+        [SORT] => 100
+    )
+
+[906] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F14D324
+        [MULTIPLE] => N
+        [TITLE_RU] => Тема
+        [SORT] => 100
+    )
+
+[907] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F15F0FE
+        [MULTIPLE] => N
+        [TITLE_RU] => Краткое описание
+        [SORT] => 100
+    )
+
+[908] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F171975
+        [MULTIPLE] => N
+        [TITLE_RU] => Описание события
+        [SORT] => 100
+    )
+
+[909] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F1846B7
+        [MULTIPLE] => N
+        [TITLE_RU] => Статус
+        [SORT] => 100
+    )
+
+[910] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F199BE3
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип входящего звонка Передан
+        [SORT] => 100
+    )
+
+[1934] => Array
+    (
+        [FIELD_NAME] => UF_CRM_CRM_SCORING_FIELD
+        [MULTIPLE] => N
+        [TITLE_RU] => UF_CRM_CRM_SCORING_FIELD
+        [SORT] => 100
+    )
+
+[911] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F1ADDCD
+        [MULTIPLE] => N
+        [TITLE_RU] => Название и дата мероприятия
+        [SORT] => 100
+    )
+
+[912] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F1C0D35
+        [MULTIPLE] => N
+        [TITLE_RU] => Файл
+        [SORT] => 100
+    )
+
+[913] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F1D3F68
+        [MULTIPLE] => N
+        [TITLE_RU] => Оценка
+        [SORT] => 100
+    )
+
+[914] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F1E836B
+        [MULTIPLE] => N
+        [TITLE_RU] => Название товара
+        [SORT] => 100
+    )
+
+[915] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F208BAA
+        [MULTIPLE] => N
+        [TITLE_RU] => ID товара
+        [SORT] => 100
+    )
+
+[916] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F21D875
+        [MULTIPLE] => N
+        [TITLE_RU] => Оценка
+        [SORT] => 100
+    )
+
+[1940] => Array
+    (
+        [FIELD_NAME] => UF_CRM_CUST_LTIME
+        [MULTIPLE] => N
+        [TITLE_RU] => Время клиента
+        [SORT] => 100
+    )
+
+[917] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F233F3C
+        [MULTIPLE] => N
+        [TITLE_RU] => Изображение рядом с отзывом
+        [SORT] => 100
+    )
+
+[918] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F2476A7
+        [MULTIPLE] => N
+        [TITLE_RU] => Способ доставки
+        [SORT] => 100
+    )
+
+[919] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F259BE2
+        [MULTIPLE] => N
+        [TITLE_RU] => Адрес(строка)
+        [SORT] => 100
+    )
+
+[920] => Array
+    (
+        [FIELD_NAME] => UF_CRM_62E8E9F26C747
+        [MULTIPLE] => N
+        [TITLE_RU] => Список услуг
+        [SORT] => 100
+    )
+
+[680] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1647509753135
+        [MULTIPLE] => N
+        [TITLE_RU] => Номер реализации
+        [SORT] => 100
+    )
+
+[681] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1647509923686
+        [MULTIPLE] => N
+        [TITLE_RU] => Номер
+        [SORT] => 100
+    )
+
+[1197] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1687513384981
+        [MULTIPLE] => N
+        [TITLE_RU] => Причины закрытия
+        [SORT] => 100
+    )
+
+[688] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649227294
+        [MULTIPLE] => N
+        [TITLE_RU] => Канал обращения
+        [SORT] => 100
+    )
+
+[689] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649227325
+        [MULTIPLE] => N
+        [TITLE_RU] => Потенциал к продаже
+        [SORT] => 100
+    )
+
+[690] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649227367
+        [MULTIPLE] => Y
+        [TITLE_RU] => Направление обращения
+        [SORT] => 100
+    )
+
+[691] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649227383
+        [MULTIPLE] => N
+        [TITLE_RU] => Кол-во мобильных рабочих мест
+        [SORT] => 100
+    )
+
+[692] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649227396
+        [MULTIPLE] => N
+        [TITLE_RU] => Кол-во рабочих мест
+        [SORT] => 100
+    )
+
+[693] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649227443
+        [MULTIPLE] => N
+        [TITLE_RU] => Система учета
+        [SORT] => 100
+    )
+
+[694] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649227627
+        [MULTIPLE] => Y
+        [TITLE_RU] => Маркировка
+        [SORT] => 100
+    )
+
+[695] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649227647
+        [MULTIPLE] => Y
+        [TITLE_RU] => Место использования решения
+        [SORT] => 100
+    )
+
+[696] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649227700
+        [MULTIPLE] => Y
+        [TITLE_RU] => Конфигурация 1С
+        [SORT] => 100
+    )
+
+[697] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228164810
+        [MULTIPLE] => N
+        [TITLE_RU] => Программное обеспечение
+        [SORT] => 100
+    )
+
+[698] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228780276
+        [MULTIPLE] => N
+        [TITLE_RU] => Ф.И.О.
+        [SORT] => 100
+    )
+
+[699] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228793288
+        [MULTIPLE] => N
+        [TITLE_RU] => Телефон
+        [SORT] => 100
+    )
+
+[700] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228802451
+        [MULTIPLE] => N
+        [TITLE_RU] => Email
+        [SORT] => 100
+    )
+
+[701] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228809615
+        [MULTIPLE] => N
+        [TITLE_RU] => Должность
+        [SORT] => 100
+    )
+
+[702] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228817188
+        [MULTIPLE] => N
+        [TITLE_RU] => Город клиента
+        [SORT] => 100
+    )
+
+[703] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228832707
+        [MULTIPLE] => N
+        [TITLE_RU] => Комментарий по контакту
+        [SORT] => 100
+    )
+
+[704] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228848539
+        [MULTIPLE] => N
+        [TITLE_RU] => Наименование компании
+        [SORT] => 100
+    )
+
+[705] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228860063
+        [MULTIPLE] => N
+        [TITLE_RU] => Раб.тел.
+        [SORT] => 100
+    )
+
+[706] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228872045
+        [MULTIPLE] => N
+        [TITLE_RU] => Email раб.
+        [SORT] => 100
+    )
+
+[707] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228909880
+        [MULTIPLE] => Y
+        [TITLE_RU] => Сегмент клиента
+        [SORT] => 100
+    )
+
+[708] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228932809
+        [MULTIPLE] => N
+        [TITLE_RU] => Web
+        [SORT] => 100
+    )
+
+[710] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228950949
+        [MULTIPLE] => N
+        [TITLE_RU] => Город
+        [SORT] => 100
+    )
+
+[711] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228961573
+        [MULTIPLE] => N
+        [TITLE_RU] => Кол-во магазинов
+        [SORT] => 100
+    )
+
+[712] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228969505
+        [MULTIPLE] => N
+        [TITLE_RU] => Кол-во Складов
+        [SORT] => 100
+    )
+
+[713] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228976887
+        [MULTIPLE] => N
+        [TITLE_RU] => Кол-во офисов
+        [SORT] => 100
+    )
+
+[1251] => Array
+    (
+        [FIELD_NAME] => UF_CRM_PROJECTID
+        [MULTIPLE] => N
+        [TITLE_RU] => ID связанного проекта
+        [SORT] => 100
+    )
+
+[485] => Array
+    (
+        [FIELD_NAME] => UF_CRM_602F809963B37
+        [MULTIPLE] => N
+        [TITLE_RU] => Id Заказа
+        [SORT] => 100
+    )
+
+[999] => Array
+    (
+        [FIELD_NAME] => UF_CRM_MGO_CC_ENTRY_ID
+        [MULTIPLE] => N
+        [TITLE_RU] => ID звонка
+        [SORT] => 100
+    )
+
+[744] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649411239489
+        [MULTIPLE] => N
+        [TITLE_RU] => Оборудование
+        [SORT] => 100
+    )
+
+[1000] => Array
+    (
+        [FIELD_NAME] => UF_CRM_MGO_CC_CHANNEL_TYPE
+        [MULTIPLE] => N
+        [TITLE_RU] => Канал обращения
+        [SORT] => 100
+    )
+
+[745] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649416422040
+        [MULTIPLE] => N
+        [TITLE_RU] => Потребность
+        [SORT] => 100
+    )
+
+[1001] => Array
+    (
+        [FIELD_NAME] => UF_CRM_MGO_CC_RESULT
+        [MULTIPLE] => N
+        [TITLE_RU] => Результат обращения
+        [SORT] => 100
+    )
+
+[490] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1615813349433
+        [MULTIPLE] => N
+        [TITLE_RU] => Закупка произвелась\производится
+        [SORT] => 100
+    )
+
+[746] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649416589326
+        [MULTIPLE] => N
+        [TITLE_RU] => Руководство 
+        [SORT] => 100
+    )
+
+[1002] => Array
+    (
+        [FIELD_NAME] => UF_CRM_MGO_CC_ENTRY_POINT
+        [MULTIPLE] => N
+        [TITLE_RU] => Точка входа обращения
+        [SORT] => 100
+    )
+
+[1258] => Array
+    (
+        [FIELD_NAME] => UF_CRM_64C9072D96663
+        [MULTIPLE] => N
+        [TITLE_RU] => NTCN LFNS
+        [SORT] => 100
+    )
+
+[491] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1615814141795
+        [MULTIPLE] => N
+        [TITLE_RU] => Ранее было согласование?
+        [SORT] => 100
+    )
+
+[1003] => Array
+    (
+        [FIELD_NAME] => UF_CRM_MGO_CC_CREATE
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата/время создания обращения
+        [SORT] => 100
+    )
+
+[1004] => Array
+    (
+        [FIELD_NAME] => UF_CRM_MGO_CC_END
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата/время завершения обращения
+        [SORT] => 100
+    )
+
+[1005] => Array
+    (
+        [FIELD_NAME] => UF_CRM_MGO_CC_TAG_ID
+        [MULTIPLE] => N
+        [TITLE_RU] => Тематики обращения
+        [SORT] => 100
+    )
+
+[238] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1600772848955
+        [MULTIPLE] => Y
+        [TITLE_RU] => DS4308-HD7U2100AZW
+        [SORT] => 100
+    )
+
+[1262] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1692269352805
+        [MULTIPLE] => Y
+        [TITLE_RU] => ТЕСТ(УДАЛИТТЬ!!!!)
+        [SORT] => 100
+    )
+
+[496] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1615816400
+        [MULTIPLE] => N
+        [TITLE_RU] => Сумма сделки
+        [SORT] => 100
+    )
+
+[505] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1616045954
+        [MULTIPLE] => N
+        [TITLE_RU] => Стадия - Продажа по договору
+        [SORT] => 100
+    )
+
+[251] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604403192849
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип тестирования оборудования / ПО
+        [SORT] => 100
+    )
+
+[508] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1617009301447
+        [MULTIPLE] => N
+        [TITLE_RU] => Размер скидки
+        [SORT] => 100
+    )
+
+[254] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604403258093
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата тестирования
+        [SORT] => 100
+    )
+
+[255] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604403380728
+        [MULTIPLE] => N
+        [TITLE_RU] => Договор
+        [SORT] => 100
+    )
+
+[2379] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1709644689
+        [MULTIPLE] => N
+        [TITLE_RU] => Timestamp(order)
+        [SORT] => 150
+    )
+
+[2380] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1709644553
+        [MULTIPLE] => N
+        [TITLE_RU] => Название заказа(корзина)
+        [SORT] => 150
+    )
+
+[2408] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1715932348
+        [MULTIPLE] => Y
+        [TITLE_RU] => Вложенные файлы
+        [SORT] => 150
+    )
+
+[709] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1649228940931
+        [MULTIPLE] => N
+        [TITLE_RU] => ИНН
+        [SORT] => 800
+    )
+
+[1220] => Array
+    (
+        [FIELD_NAME] => UF_CRM_4_MAPS_DT_DEL
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата поставки клиенту
+        [SORT] => 802
+    )
+
+[1221] => Array
+    (
+        [FIELD_NAME] => UF_CRM_4_MAPS_INTER
+        [MULTIPLE] => Y
+        [TITLE_RU] => [MAPS.FIX4.ORG] Интервал доставки
+        [SORT] => 804
+    )
+
+[1222] => Array
+    (
+        [FIELD_NAME] => UF_CRM_4_MAPS_EMPL
+        [MULTIPLE] => Y
+        [TITLE_RU] => [MAPS.FIX4.ORG] Выездной сотрудник
+        [SORT] => 806
+    )
+
+[1223] => Array
+    (
+        [FIELD_NAME] => UF_CRM_4_MAPS_ADDR
+        [MULTIPLE] => N
+        [TITLE_RU] => [MAPS.FIX4.ORG] Адрес
+        [SORT] => 808
+    )
+
+[1224] => Array
+    (
+        [FIELD_NAME] => UF_CRM_4_MAPS_GEO
+        [MULTIPLE] => N
+        [TITLE_RU] => [MAPS.FIX4.ORG] GEO
+        [SORT] => 810
+    )
+
+[1225] => Array
+    (
+        [FIELD_NAME] => UF_CRM_4_MAPS_COMM
+        [MULTIPLE] => N
+        [TITLE_RU] => [MAPS.FIX4.ORG] Комментарий
+        [SORT] => 820
+    )
+
+[1268] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1693830629
+        [MULTIPLE] => N
+        [TITLE_RU] => Каналы привлечения
+        [SORT] => 905
+    )
+
+[1269] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1693831285
+        [MULTIPLE] => N
+        [TITLE_RU] => Конкуренты
+        [SORT] => 910
+    )
+
+[1382] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695041653
+        [MULTIPLE] => N
+        [TITLE_RU] => Сделка целевая
+        [SORT] => 915
+    )
+
+[495] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1615815557
+        [MULTIPLE] => N
+        [TITLE_RU] => Требуется подбор оборудования(да/нет)?
+        [SORT] => 920
+    )
+
+[1355] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694609011
+        [MULTIPLE] => N
+        [TITLE_RU] => Помощь продакта
+        [SORT] => 925
+    )
+
+[1356] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694611096
+        [MULTIPLE] => N
+        [TITLE_RU] => Наш постоянный заказчик
+        [SORT] => 930
+    )
+
+[753] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1650436127482
+        [MULTIPLE] => N
+        [TITLE_RU] => Проблема (боль) клиента
+        [SORT] => 935
+    )
+
+[2193] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1697116895
+        [MULTIPLE] => N
+        [TITLE_RU] => Сделка в воронке Розница
+        [SORT] => 940
+    )
+
+[2194] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1697116922
+        [MULTIPLE] => N
+        [TITLE_RU] => Сделка в воронке Логистика
+        [SORT] => 942
+    )
+
+[2199] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1697119668
+        [MULTIPLE] => N
+        [TITLE_RU] => Сделка в воронке Тендер
+        [SORT] => 943
+    )
+
+[2283] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1699436738
+        [MULTIPLE] => N
+        [TITLE_RU] => Сделка в воронке Enterprise
+        [SORT] => 944
+    )
+
+[1350] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694512500
+        [MULTIPLE] => N
+        [TITLE_RU] => Отправить оборудование в тест?
+        [SORT] => 945
+    )
+
+[1945] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1696235797
+        [MULTIPLE] => Y
+        [TITLE_RU] => Счет от поставщика(файл)
+        [SORT] => 950
+    )
+
+[1358] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694611186
+        [MULTIPLE] => N
+        [TITLE_RU] => Отсрочка платежа
+        [SORT] => 955
+    )
+
+[1346] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694440911
+        [MULTIPLE] => N
+        [TITLE_RU] => Счет от поставщика(да/нет)
+        [SORT] => 960
+    )
+
+[1381] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695040949
+        [MULTIPLE] => N
+        [TITLE_RU] => Заказ клиента(номер)
+        [SORT] => 965
+    )
+
+[2186] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1696941810
+        [MULTIPLE] => N
+        [TITLE_RU] => Заказ поставщика(номер)
+        [SORT] => 966
+    )
+
+[1359] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694611225
+        [MULTIPLE] => N
+        [TITLE_RU] => Есть в наличии
+        [SORT] => 970
+    )
+
+[1280] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1693833711
+        [MULTIPLE] => N
+        [TITLE_RU] => Причина откола розница
+        [SORT] => 975
+    )
+
+[1282] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1693834631
+        [MULTIPLE] => N
+        [TITLE_RU] => Этап откола розница
+        [SORT] => 980
+    )
+
+[1283] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694009610
+        [MULTIPLE] => N
+        [TITLE_RU] => МПП
+        [SORT] => 985
+    )
+
+[1360] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694611263
+        [MULTIPLE] => N
+        [TITLE_RU] => Заказ у поставщика
+        [SORT] => 990
+    )
+
+[1285] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694010404
+        [MULTIPLE] => N
+        [TITLE_RU] => Контакты поставщика
+        [SORT] => 995
+    )
+
+[1119] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1685112764
+        [MULTIPLE] => N
+        [TITLE_RU] => Сфера деятельности (СБИС)
+        [SORT] => 1002
+    )
+
+[1120] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1685112785
+        [MULTIPLE] => N
+        [TITLE_RU] => Выручка (СБИС)
+        [SORT] => 1002
+    )
+
+[1167] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1686907843
+        [MULTIPLE] => N
+        [TITLE_RU] => Оборот (СБИС)
+        [SORT] => 1002
+    )
+
+[2389] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1715090633
+        [MULTIPLE] => N
+        [TITLE_RU] => Планируемая дата поступления поставщику
+        [SORT] => 1003
+    )
+
+[1286] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694010465
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата поступления от поставщика
+        [SORT] => 1005
+    )
+
+[1287] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694010552
+        [MULTIPLE] => N
+        [TITLE_RU] => Способ доставки от поставщика
+        [SORT] => 1010
+    )
+
+[1288] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694010676
+        [MULTIPLE] => N
+        [TITLE_RU] => Способ доставки до клиента
+        [SORT] => 1015
+    )
+
+[1289] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694011167
+        [MULTIPLE] => N
+        [TITLE_RU] => Вес
+        [SORT] => 1020
+    )
+
+[1290] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694011199
+        [MULTIPLE] => N
+        [TITLE_RU] => Габариты(формат: д*ш*в)
+        [SORT] => 1025
+    )
+
+[1291] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694011228
+        [MULTIPLE] => N
+        [TITLE_RU] => Количество мест
+        [SORT] => 1030
+    )
+
+[1292] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694011381
+        [MULTIPLE] => N
+        [TITLE_RU] => Трек номер
+        [SORT] => 1035
+    )
+
+[1361] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694611313
+        [MULTIPLE] => N
+        [TITLE_RU] => Товар у клиента
+        [SORT] => 1040
+    )
+
+[1318] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694175464
+        [MULTIPLE] => N
+        [TITLE_RU] => Площадка
+        [SORT] => 1045
+    )
+
+[1362] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694611374
+        [MULTIPLE] => N
+        [TITLE_RU] => ТЗ
+        [SORT] => 1050
+    )
+
+[1363] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694611411
+        [MULTIPLE] => N
+        [TITLE_RU] => Оборудование подобрано
+        [SORT] => 1055
+    )
+
+[1364] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694611472
+        [MULTIPLE] => N
+        [TITLE_RU] => Подбор согласован
+        [SORT] => 1060
+    )
+
+[1365] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694611528
+        [MULTIPLE] => N
+        [TITLE_RU] => Условия закупки занесены
+        [SORT] => 1065
+    )
+
+[1366] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694611560
+        [MULTIPLE] => N
+        [TITLE_RU] => Условия продажи занесены
+        [SORT] => 1070
+    )
+
+[1324] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694176847
+        [MULTIPLE] => N
+        [TITLE_RU] => Причина проигрыша тендер
+        [SORT] => 1075
+    )
+
+[1325] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694177335
+        [MULTIPLE] => N
+        [TITLE_RU] => Этап откола тендер
+        [SORT] => 1080
+    )
+
+[1352] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1694522586
+        [MULTIPLE] => N
+        [TITLE_RU] => Логист
+        [SORT] => 1085
+    )
+
+[2180] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1696492723
+        [MULTIPLE] => N
+        [TITLE_RU] => Кладовщик
+        [SORT] => 1090
+    )
+
+[1903] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695810021
+        [MULTIPLE] => N
+        [TITLE_RU] => Продажа софта
+        [SORT] => 2000
+    )
+
+[1904] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695812627
+        [MULTIPLE] => N
+        [TITLE_RU] => Требуется пилот
+        [SORT] => 2005
+    )
+
+[1905] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695812814
+        [MULTIPLE] => N
+        [TITLE_RU] => ФЭО согласовано
+        [SORT] => 2010
+    )
+
+[1906] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695812914
+        [MULTIPLE] => N
+        [TITLE_RU] => КП сформировано
+        [SORT] => 2015
+    )
+
+[1907] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695812941
+        [MULTIPLE] => N
+        [TITLE_RU] => КП отправлено
+        [SORT] => 2020
+    )
+
+[1908] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695813157
+        [MULTIPLE] => N
+        [TITLE_RU] => Договор составлен
+        [SORT] => 2025
+    )
+
+[1909] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695813199
+        [MULTIPLE] => N
+        [TITLE_RU] => Договор согласован
+        [SORT] => 2030
+    )
+
+[1910] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695813226
+        [MULTIPLE] => N
+        [TITLE_RU] => Договор подписан
+        [SORT] => 2035
+    )
+
+[1943] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1696233850
+        [MULTIPLE] => N
+        [TITLE_RU] => Реализация сделана
+        [SORT] => 2045
+    )
+
+[1944] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1696233904
+        [MULTIPLE] => N
+        [TITLE_RU] => Были ли проблемы?
+        [SORT] => 2050
+    )
+
+[2175] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1696425191
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип доставки
+        [SORT] => 2055
+    )
+
+[252] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1604403220304
+        [MULTIPLE] => N
+        [TITLE_RU] => Адрес доставки
+        [SORT] => 2060
+    )
+
+[2382] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1711107473
+        [MULTIPLE] => N
+        [TITLE_RU] => Delivery address
+        [SORT] => 2061
+    )
+
+[2178] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1696427285
+        [MULTIPLE] => N
+        [TITLE_RU] => Кто оплачивает доставку
+        [SORT] => 2065
+    )
+
+[2182] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1696705078
+        [MULTIPLE] => N
+        [TITLE_RU] => ID привязанной задачи
+        [SORT] => 2070
+    )
+
+[2189] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1697105997
+        [MULTIPLE] => N
+        [TITLE_RU] => Адрес забора у поставщика
+        [SORT] => 2075
+    )
+
+[2190] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1697106053
+        [MULTIPLE] => N
+        [TITLE_RU] => Контакт забора у поставщика_архив
+        [SORT] => 2080
+    )
+
+[2293] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1699626664
+        [MULTIPLE] => N
+        [TITLE_RU] => Контакт забора у поставщика
+        [SORT] => 2081
+    )
+
+[2203] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1697208819
+        [MULTIPLE] => N
+        [TITLE_RU] => Контакт клиента по доставке_ст
+        [SORT] => 2082
+    )
+
+[2230] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1699004936
+        [MULTIPLE] => Y
+        [TITLE_RU] => Контакт клиента по доставке
+        [SORT] => 2083
+    )
+
+[2204] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1697229927
+        [MULTIPLE] => N
+        [TITLE_RU] => CurrentStageId
+        [SORT] => 2090
+    )
+
+[2312] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1705483292
+        [MULTIPLE] => N
+        [TITLE_RU] => TaskAddFlag
+        [SORT] => 2091
+    )
+
+[2216] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1697801120
+        [MULTIPLE] => N
+        [TITLE_RU] => Наше юр. лицо
+        [SORT] => 2095
+    )
+
+[2222] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1698411640
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип тендера
+        [SORT] => 3000
+    )
+
+[2224] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1698756510
+        [MULTIPLE] => N
+        [TITLE_RU] => Наличие тех характеристик пр-а?
+        [SORT] => 3005
+    )
+
+[2225] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1698756704
+        [MULTIPLE] => Y
+        [TITLE_RU] => Технические характеристики проекта
+        [SORT] => 3010
+    )
+
+[2281] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1699426814
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип воронки
+        [SORT] => 3015
+    )
+
+[487] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1615291271
+        [MULTIPLE] => N
+        [TITLE_RU] => Менеджер по закупкам
+        [SORT] => 3020
+    )
+
+[533] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1618578937
+        [MULTIPLE] => N
+        [TITLE_RU] => Ассистент
+        [SORT] => 3025
+    )
+
+[1932] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1695896646
+        [MULTIPLE] => N
+        [TITLE_RU] => Продакт-менеджер/Pre-sale инженер
+        [SORT] => 3030
+    )
+
+[2292] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1699623367
+        [MULTIPLE] => N
+        [TITLE_RU] => ИКЗ
+        [SORT] => 3035
+    )
+
+[2287] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1699619516
+        [MULTIPLE] => N
+        [TITLE_RU] => Обеспечение исп. договора
+        [SORT] => 3040
+    )
+
+[2288] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1699619537
+        [MULTIPLE] => N
+        [TITLE_RU] => Гарантийное обязательство
+        [SORT] => 3050
+    )
+
+[2299] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1700635161
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата проведения тендера
+        [SORT] => 3055
+    )
+
+[535] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1618820209101
+        [MULTIPLE] => N
+        [TITLE_RU] => ID заказа
+        [SORT] => 3060
+    )
+
+[2301] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1701867408
+        [MULTIPLE] => N
+        [TITLE_RU] => № cделки
+        [SORT] => 3065
+    )
+
+[2303] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1702019245
+        [MULTIPLE] => N
+        [TITLE_RU] => Приходный ордер сделан
+        [SORT] => 3070
+    )
+
+[2304] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1702019397
+        [MULTIPLE] => N
+        [TITLE_RU] => Возврат физически акта?
+        [SORT] => 3075
+    )
+
+[2305] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1702020749
+        [MULTIPLE] => N
+        [TITLE_RU] => Акт приема сделан?
+        [SORT] => 3080
+    )
+
+[2309] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1703502754
+        [MULTIPLE] => N
+        [TITLE_RU] => Крайний срок подписания спецификации
+        [SORT] => 3085
+    )
+
+[2315] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1705484207
+        [MULTIPLE] => N
+        [TITLE_RU] => Время нахождения сделки на стадии
+        [SORT] => 3090
+    )
+
+[2322] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1706107823
+        [MULTIPLE] => N
+        [TITLE_RU] => Заказ отгружать частично?
+        [SORT] => 3095
+    )
+
+[2324] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1706177827
+        [MULTIPLE] => N
+        [TITLE_RU] => Описание проекта
+        [SORT] => 4000
+    )
+
+[2330] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1706256091
+        [MULTIPLE] => Y
+        [TITLE_RU] => Файл из формы заявки
+        [SORT] => 4005
+    )
+
+[2336] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1707378377515
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип сделки
+        [SORT] => 4010
+    )
+
+[2337] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1707378457654
+        [MULTIPLE] => N
+        [TITLE_RU] => Приоритетность
+        [SORT] => 4015
+    )
+
+[2345] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1707477613
+        [MULTIPLE] => N
+        [TITLE_RU] => Доставка согласована до:
+        [SORT] => 4020
+    )
+
+[2347] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1707894643
+        [MULTIPLE] => N
+        [TITLE_RU] => Товар доставлен?
+        [SORT] => 4025
+    )
+
+[2348] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1707895356
+        [MULTIPLE] => N
+        [TITLE_RU] => Возврат физически акта?
+        [SORT] => 4030
+    )
+
+[2349] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1707896620
+        [MULTIPLE] => N
+        [TITLE_RU] => Оборудование в тесте до:
+        [SORT] => 4035
+    )
+
+[2377] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1710405150
+        [MULTIPLE] => N
+        [TITLE_RU] => Дата заказа
+        [SORT] => 4040
+    )
+
+[2363] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1709644611
+        [MULTIPLE] => N
+        [TITLE_RU] => Количество товара
+        [SORT] => 4045
+    )
+
+[2364] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1709644634
+        [MULTIPLE] => N
+        [TITLE_RU] => Количество товарных позиций
+        [SORT] => 4050
+    )
+
+[2376] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1710404322
+        [MULTIPLE] => N
+        [TITLE_RU] => Timestamp(order)
+        [SORT] => 4055
+    )
+
+[2366] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1709646083
+        [MULTIPLE] => N
+        [TITLE_RU] => Тип оплаты
+        [SORT] => 4060
+    )
+
+[2367] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1709665332
+        [MULTIPLE] => Y
+        [TITLE_RU] => Товары
+        [SORT] => 4065
+    )
+
+[2398] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1715934705
+        [MULTIPLE] => Y
+        [TITLE_RU] => Направления "Отдела развития"
+        [SORT] => 4070
+    )
+
+[2387] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1714979971
+        [MULTIPLE] => N
+        [TITLE_RU] => Ссылка на реквизиты
+        [SORT] => 4075
+    )
+
+[2393] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1715760699
+        [MULTIPLE] => N
+        [TITLE_RU] => Частичная поставка
+        [SORT] => 4080
+    )
+
+[2394] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1715760731
+        [MULTIPLE] => N
+        [TITLE_RU] => Частичная отгрузка
+        [SORT] => 4085
+    )
+
+[2403] => Array
+    (
+        [FIELD_NAME] => UF_CRM_1716449477
+        [MULTIPLE] => N
+        [TITLE_RU] => Ссылка на файл на диске
+        [SORT] => 4090
+    )

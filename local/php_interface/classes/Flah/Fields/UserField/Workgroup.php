@@ -1,5 +1,6 @@
 <?php
-namespace Flah\Fields\UserField;
+
+namespace Umserv\Flah\Fields\UserField;
 
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\UserField\Types\BaseType;

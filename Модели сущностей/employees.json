@@ -1,0 +1,550 @@
+{
+  "1": { "id": 1, "person": "SYSTEM", "phone": -1, "email": "" },
+  "8": {
+    "id": 8,
+    "person": "Цурук Максим",
+    "phone": -1,
+    "email": "tsuruk@umserv.ru"
+  },
+  "23": {
+    "id": 23,
+    "person": "Пятков Андрей",
+    "phone": -1,
+    "email": "pyatkov@umserv.ru"
+  },
+  "26": {
+    "id": 26,
+    "person": "Васильев Дмитрий",
+    "phone": -1,
+    "email": "vasilev@umserv.ru"
+  },
+  "37": { "id": 37, "person": "Дымшаков Андрей", "phone": -1, "email": "" },
+  "40": {
+    "id": 40,
+    "person": "Яровой Сергей",
+    "phone": -1,
+    "email": "yarovoy@umserv.ru"
+  },
+  "42": {
+    "id": 42,
+    "person": "Мещерякова Татьяна",
+    "phone": -1,
+    "email": "meshcheryakova@umserv.ru"
+  },
+  "48": {
+    "id": 48,
+    "person": "Тест Тестов",
+    "phone": -1,
+    "email": "test@test.ru"
+  },
+  "113": {
+    "id": 113,
+    "person": "Надеждина Анна Юрьевна",
+    "phone": 89684461778,
+    "email": "nadezhdina@umserv.ru"
+  },
+  "122": {
+    "id": 122,
+    "person": "Маклакова Оксана",
+    "phone": 79031745358,
+    "email": "maklakova@umserv.ru"
+  },
+  "154": {
+    "id": 154,
+    "person": "Абрамов Максим",
+    "phone": -1,
+    "email": "m.abramov@umserv.ru"
+  },
+  "197": {
+    "id": 197,
+    "person": "Колокольцев Денис Александрович",
+    "phone": -1,
+    "email": "kolokoltsev@umserv.ru"
+  },
+  "214": {
+    "id": 214,
+    "person": "Фяйзуллин Рустам Равилевич",
+    "phone": 79671776124,
+    "email": "fyayzullin@umserv.ru"
+  },
+  "236": {
+    "id": 236,
+    "person": "Новиков Олег",
+    "phone": -1,
+    "email": "novikov@umserv.ru"
+  },
+  "242": {
+    "id": 242,
+    "person": "Мамонтов Владимир",
+    "phone": -1,
+    "email": "mamontov@umserv.ru"
+  },
+  "251": {
+    "id": 251,
+    "person": "Тихонов Сергей",
+    "phone": -1,
+    "email": "tikhonov@umserv.ru"
+  },
+  "257": {
+    "id": 257,
+    "person": "Лукьяненко Татьяна Сергеевна",
+    "phone": -1,
+    "email": "lukyanenko@umserv.ru"
+  },
+  "261": {
+    "id": 261,
+    "person": "Гаранин Вячеслав",
+    "phone": -1,
+    "email": "garanin@umserv.ru"
+  },
+  "262": {
+    "id": 262,
+    "person": "Залогин Антон Сергеевич",
+    "phone": -1,
+    "email": "zalogin@umserv.ru"
+  },
+  "269": {
+    "id": 269,
+    "person": "Плис Дарья",
+    "phone": -1,
+    "email": "plis@umserv.ru"
+  },
+  "274": {
+    "id": 274,
+    "person": "Григорьева Галина Викторовна",
+    "phone": -1,
+    "email": "grigorieva@umserv.ru"
+  },
+  "275": {
+    "id": 275,
+    "person": "Колганова Анна Владимировна",
+    "phone": -1,
+    "email": "kolganova@umserv.ru"
+  },
+  "276": {
+    "id": 276,
+    "person": "Брусничкина Мария",
+    "phone": 79645152702,
+    "email": "brusnichkina@umserv.ru"
+  },
+  "284": {
+    "id": 284,
+    "person": "Петров Андрей",
+    "phone": -1,
+    "email": "petrov@umserv.ru"
+  },
+  "285": {
+    "id": 285,
+    "person": "Белоусов Роман Юрьевич",
+    "phone": -1,
+    "email": "belousov@umserv.ru"
+  },
+  "290": {
+    "id": 290,
+    "person": "Белых Анастасия",
+    "phone": -1,
+    "email": "belykh@umserv.ru"
+  },
+  "293": {
+    "id": 293,
+    "person": "Трудников Тимофей",
+    "phone": -1,
+    "email": "trudnikov@umserv.ru"
+  },
+  "295": {
+    "id": 295,
+    "person": "Артемьева Лианна",
+    "phone": -1,
+    "email": "artemyeva@umserv.ru"
+  },
+  "309": {
+    "id": 309,
+    "person": "Карасева Марина Александровна",
+    "phone": -1,
+    "email": "karaseva@umserv.ru"
+  },
+  "314": {
+    "id": 314,
+    "person": "Патрушев Данил Максимович",
+    "phone": -1,
+    "email": "patrushev@umserv.ru"
+  },
+  "316": {
+    "id": 316,
+    "person": "Ледовских Елена",
+    "phone": -1,
+    "email": "ledovskih@umserv.ru"
+  },
+  "318": {
+    "id": 318,
+    "person": "Дасюк Илья Владимирович",
+    "phone": 79686567987,
+    "email": "dasyuk@umserv.ru"
+  },
+  "325": {
+    "id": 325,
+    "person": "Волк Инна Игоревна",
+    "phone": 79686770205,
+    "email": "volk@umserv.ru"
+  },
+  "327": {
+    "id": 327,
+    "person": "Васильков Дмитрий Валерьевич",
+    "phone": -1,
+    "email": "vasilkov@umserv.ru"
+  },
+  "337": {
+    "id": 337,
+    "person": "Крылов Андрей",
+    "phone": -1,
+    "email": "krylov@umserv.ru"
+  },
+  "338": {
+    "id": 338,
+    "person": "Клещеногова Елена Владиславовна",
+    "phone": -1,
+    "email": "kleshenogova@umserv.ru"
+  },
+  "339": {
+    "id": 339,
+    "person": "Фарсиева Ксения",
+    "phone": -1,
+    "email": "farsieva@umserv.ru"
+  },
+  "354": {
+    "id": 354,
+    "person": "Алексеева Диана",
+    "phone": -1,
+    "email": "alekseeva@umserv.ru"
+  },
+  "382": {
+    "id": 382,
+    "person": "Деркач Екатерина",
+    "phone": -1,
+    "email": "hr@umserv.ru"
+  },
+  "486": {
+    "id": 486,
+    "person": "Лисицын Олег Дмитриевич",
+    "phone": -1,
+    "email": "lisitsyn@umserv.ru"
+  },
+  "511": {
+    "id": 511,
+    "person": "Яндимирова Алина",
+    "phone": -1,
+    "email": "yandimirova@umserv.ru"
+  },
+  "523": {
+    "id": 523,
+    "person": "Янченко Валерий",
+    "phone": -1,
+    "email": "yanchenko@umserv.ru"
+  },
+  "524": {
+    "id": 524,
+    "person": "Куликов Павел Сергеевич",
+    "phone": -1,
+    "email": "kulikov@umserv.ru"
+  },
+  "525": {
+    "id": 525,
+    "person": "Бархатова Екатерина Юрьевна",
+    "phone": -1,
+    "email": "barhatova@umserv.ru"
+  },
+  "565": {
+    "id": 565,
+    "person": "Мартыненко Владимир",
+    "phone": -1,
+    "email": "martynenko@umserv.ru"
+  },
+  "702": {
+    "id": 702,
+    "person": "Волков Андрей Анатольевич",
+    "phone": -1,
+    "email": "volkov@umserv.ru"
+  },
+  "855": {
+    "id": 855,
+    "person": "Меркулов Дмитрий Александрович",
+    "phone": -1,
+    "email": "merkulov@umserv.ru"
+  },
+  "857": {
+    "id": 857,
+    "person": "Ремескевич Олег",
+    "phone": -1,
+    "email": "remeskevich@umserv.ru"
+  },
+  "1044": {
+    "id": 1044,
+    "person": "Пласконь Елена Михайловна",
+    "phone": -1,
+    "email": "plaskon@umserv.ru"
+  },
+  "1045": {
+    "id": 1045,
+    "person": "Смахтин Константин Эдуардович",
+    "phone": -1,
+    "email": "smakhtin@umserv.ru"
+  },
+  "1046": {
+    "id": 1046,
+    "person": "Валеев Денис Денисламович",
+    "phone": -1,
+    "email": "valeev@umserv.ru"
+  },
+  "1048": {
+    "id": 1048,
+    "person": "Зарихин Владимир Александрович",
+    "phone": 89689066914,
+    "email": "zarihin@umserv.ru"
+  },
+  "1052": {
+    "id": 1052,
+    "person": "Мартиросов Дмитрий Борисович",
+    "phone": -1,
+    "email": "martirosov@umserv.ru"
+  },
+  "1054": {
+    "id": 1054,
+    "person": "Семенов Максим Владимирович",
+    "phone": -1,
+    "email": "semenov@umserv.ru"
+  },
+  "1058": {
+    "id": 1058,
+    "person": "Каримов Мухаммад",
+    "phone": -1,
+    "email": ""
+  },
+  "1060": {
+    "id": 1060,
+    "person": "Бобылев Сергей Владиславович",
+    "phone": 79689066910,
+    "email": "bobylev@umserv.ru"
+  },
+  "1065": {
+    "id": 1065,
+    "person": "Кукушкина Надежда",
+    "phone": -1,
+    "email": "kukushkina@umserv.ru"
+  },
+  "1068": {
+    "id": 1068,
+    "person": "Ларин Владимир larin@umserv.ru",
+    "phone": -1,
+    "email": ""
+  },
+  "1073": {
+    "id": 1073,
+    "person": "Атабиев Шамиль Асланович",
+    "phone": -1,
+    "email": "atabiev@umserv.ru"
+  },
+  "1075": {
+    "id": 1075,
+    "person": "Раков Денис Алексеевич",
+    "phone": 89689066917,
+    "email": "rakov@umserv.ru"
+  },
+  "1077": {
+    "id": 1077,
+    "person": "Василевская  Валерия  Сергеевна",
+    "phone": 79689066912,
+    "email": "vasilevskaya@umserv.ru"
+  },
+  "1079": {
+    "id": 1079,
+    "person": "Алексей Бородинский Юрьевич",
+    "phone": 79689066912,
+    "email": "borodinsky@umserv.ru"
+  },
+  "1082": {
+    "id": 1082,
+    "person": "Миренкова  Екатерина  Анатольевна",
+    "phone": -1,
+    "email": "mirenkova@umserv.ru"
+  },
+  "1083": {
+    "id": 1083,
+    "person": "Рунова Любовь",
+    "phone": -1,
+    "email": "lyu.runova@gmail.com"
+  },
+  "1089": {
+    "id": 1089,
+    "person": "Перов Алексей Владимирович",
+    "phone": -1,
+    "email": "palexey@umserv.ru"
+  },
+  "1091": {
+    "id": 1091,
+    "person": "Винокурова Диана",
+    "phone": -1,
+    "email": "vinokurova@umserv.ru"
+  },
+  "1095": {
+    "id": 1095,
+    "person": "Балкаев Константин",
+    "phone": -1,
+    "email": "balkaev@umserv.ru"
+  },
+  "1097": {
+    "id": 1097,
+    "person": "Николаева Екатерина Юрьевна",
+    "phone": -1,
+    "email": "nikolaeva@umserv.ru"
+  },
+  "1099": {
+    "id": 1099,
+    "person": "Рощин Евгений Александрович",
+    "phone": -1,
+    "email": "roshchin@umserv.ru"
+  },
+  "1101": {
+    "id": 1101,
+    "person": "Пюрбеева Айса Анатольевна",
+    "phone": -1,
+    "email": "purbeeva@umserv.ru"
+  },
+  "1105": {
+    "id": 1105,
+    "person": "Алексей Попов Михайлович",
+    "phone": 89686369987,
+    "email": "a.popov@umserv.ru"
+  },
+  "1106": {
+    "id": 1106,
+    "person": "Шамуилов Александр Николаевич",
+    "phone": -1,
+    "email": "shamuilov@umserv.ru"
+  },
+  "1107": {
+    "id": 1107,
+    "person": "Сидорова Юлия Юрьевна",
+    "phone": -1,
+    "email": "sidorova@umserv.ru"
+  },
+  "1108": {
+    "id": 1108,
+    "person": "Ганиев Алексей Сергеевич",
+    "phone": -1,
+    "email": "ganiev@umserv.ru"
+  },
+  "1110": {
+    "id": 1110,
+    "person": "Ковалева Анна  Александровна",
+    "phone": -1,
+    "email": "akovaleva@umserv.ru"
+  },
+  "1111": {
+    "id": 1111,
+    "person": "Милорадов Сергей",
+    "phone": -1,
+    "email": "miloradov@umserv.ru"
+  },
+  "1112": {
+    "id": 1112,
+    "person": "Ломакин  Владимир",
+    "phone": -1,
+    "email": "lomakin@umserv.ru"
+  },
+  "1116": {
+    "id": 1116,
+    "person": "Симонов Анатолий Александрович",
+    "phone": -1,
+    "email": "simonov@umserv.ru"
+  },
+  "1118": {
+    "id": 1118,
+    "person": "Юманова Анна Германовна",
+    "phone": -1,
+    "email": "yumanova@umserv.ru"
+  },
+  "1119": {
+    "id": 1119,
+    "person": "Блюмина  Екатерина  Владимировна",
+    "phone": -1,
+    "email": "blyumina@umserv.ru"
+  },
+  "1124": {
+    "id": 1124,
+    "person": "Бородинский  Иван  Юрьевич",
+    "phone": -1,
+    "email": "borodinskiy@umserv.ru"
+  },
+  "1125": {
+    "id": 1125,
+    "person": "Еременко Сергей",
+    "phone": -1,
+    "email": "eremenko@umserv.ru"
+  },
+  "1126": {
+    "id": 1126,
+    "person": "Яхеев Тимур Рустемович",
+    "phone": 79686462053,
+    "email": "yaheev@umserv.ru"
+  },
+  "1130": {
+    "id": 1130,
+    "person": "Виктора Сташков Виктор",
+    "phone": -1,
+    "email": "stashkov@umserv.ru"
+  },
+  "1131": {
+    "id": 1131,
+    "person": "Кравцова Валерия Сергеевна",
+    "phone": -1,
+    "email": "kravcova@umserv.ru"
+  },
+  "1137": {
+    "id": 1137,
+    "person": "Владимирович Станислав  Михайлов",
+    "phone": -1,
+    "email": "smihaylov@umserv.ru"
+  },
+  "1140": {
+    "id": 1140,
+    "person": "Жуков  Иван",
+    "phone": -1,
+    "email": "zhukov@umserv.ru"
+  },
+  "1143": {
+    "id": 1143,
+    "person": "Двойнина Лилия Петровна",
+    "phone": -1,
+    "email": "dvoinina@umserv.ru"
+  },
+  "1144": {
+    "id": 1144,
+    "person": "Калинин  Андрей Родионович",
+    "phone": -1,
+    "email": "kalinin@umserv.ru"
+  },
+  "1145": {
+    "id": 1145,
+    "person": "Сударикова  Нина  Олеговна",
+    "phone": -1,
+    "email": "sudarikova@umserv.ru"
+  },
+  "1149": {
+    "id": 1149,
+    "person": "Макарова  Лариса  Николаевна",
+    "phone": 79067086126,
+    "email": "makarova@umserv.ru"
+  },
+  "1151": {
+    "id": 1151,
+    "person": "Медецкий  Михаил  Анатольевич",
+    "phone": -1,
+    "email": "medeckij@umserv.ru"
+  },
+  "1152": {
+    "id": 1152,
+    "person": "Рогозный Павел Юрьевич",
+    "phone": 89661670298,
+    "email": "rogoznyj@umserv.ru"
+  }
+}

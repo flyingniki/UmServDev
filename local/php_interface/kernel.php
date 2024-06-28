@@ -18,14 +18,12 @@ use \Bitrix\Main,
  */
 $envPath = dirname($_SERVER['DOCUMENT_ROOT']);
 
-if ( file_exists($envPath.'/.env') )
-{
+if (file_exists($envPath . '/.env')) {
 	$env = Main\Context::getCurrent()->getEnvironment();
 
-	$iniParams = \parse_ini_file($envPath.'/.env', true, INI_SCANNER_TYPED);
+	$iniParams = \parse_ini_file($envPath . '/.env', true, INI_SCANNER_TYPED);
 
-	foreach ($iniParams as $key => $value)
-	{
+	foreach ($iniParams as $key => $value) {
 		$env->set($key, $value);
 	}
 	unset($key);
@@ -39,8 +37,7 @@ unset($envPath);
  * Service locator section
  *   if exist
  */
-if ( class_exists('\Bitrix\Main\DI\ServiceLocator') )
-{
+if (class_exists('\Bitrix\Main\DI\ServiceLocator')) {
 	$serviceLocator = Main\DI\ServiceLocator::getInstance();
 
 	/**
@@ -65,16 +62,15 @@ if ( class_exists('\Bitrix\Main\DI\ServiceLocator') )
 	 */
 
 	$paymentEntityTypeId = (int) Option::get("flah.crm", "payment_entity_type_id", 0);
-	if ( $paymentEntityTypeId > 0 )
-	{
+	if ($paymentEntityTypeId > 0) {
 		$serviceLocator->addInstanceLazy(
-			"crm.service.factory.dynamic.".$paymentEntityTypeId,
+			"crm.service.factory.dynamic." . $paymentEntityTypeId,
 			[
 				'constructor' => static function () use ($paymentEntityTypeId) {
 					Main\Loader::requireModule('crm');
 					$type = Crm\Service\Container::getInstance()
 						->getTypeByEntityTypeId($paymentEntityTypeId);
-					return new \Flah\Crm\PaymentRequest\Factory($type);
+					return new \Umserv\Flah\Crm\PaymentRequest\Factory($type);
 				},
 			]
 		);

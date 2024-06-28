@@ -1,16 +1,15 @@
 <?php
 
-namespace Flah\Crm\PaymentRequest;
+namespace Umserv\Flah\Crm\PaymentRequest;
 
 use \Bitrix\Main,
 	\Fusion\Rms,
 	\Bitrix\Crm\Item,
 	\Bitrix\Crm\Service\Context,
 	\Bitrix\Crm\Service\Operation,
-	\Flah\Crm\PaymentRequest\Operation\ChangeStageRestriction,
+	\Umserv\Flah\Crm\PaymentRequest\Operation\ChangeStageRestriction,
 	\Bitrix\Crm\Service\Operation\Update,
-	\Bitrix\Crm\Service\Factory\Dynamic
-	;
+	\Bitrix\Crm\Service\Factory\Dynamic;
 
 class Factory extends Dynamic
 {
@@ -33,5 +32,4 @@ class Factory extends Dynamic
 
 		return $operation;
 	}
-
 }

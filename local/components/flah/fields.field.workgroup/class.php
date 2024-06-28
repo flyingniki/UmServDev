@@ -1,8 +1,8 @@
 <?php
 
-if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
+if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 
-use Flah\Fields\UserField\Workgroup;
+use Umserv\Flah\Fields\UserField\Workgroup;
 use Bitrix\Main\Component\BaseUfComponent;
 
 /**

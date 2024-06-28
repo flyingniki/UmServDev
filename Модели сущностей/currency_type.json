@@ -1,0 +1,8 @@
+[
+  { "id": 0, "key": "RUB", "value": "RUB (Рубль)" },
+  { "id": 1, "key": "USD", "value": "USD (Доллар США)" },
+  { "id": 2, "key": "EUR", "value": "EUR (Евро)" },
+  { "id": 3, "key": "UAH", "value": "UAH (Гривна)" },
+  { "id": 4, "key": "BYN", "value": "BYN (Белорусский рубль)" },
+  { "id": 5, "key": "CNY", "value": "CNY (Юань)" }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "umserv/crm.umserv.ru",
+  "type": "project",
+  "version": "0.0.1",
+  "homepage": "https://crm.umserv.ru",
+  "authors": [
+    {
+      "name": "Petr Nikitin",
+      "email": "petr.niki.777@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Umserv\\": "classes/"
+    }
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  }
+}

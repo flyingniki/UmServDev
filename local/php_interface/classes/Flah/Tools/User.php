@@ -1,6 +1,6 @@
 <?php
 
-namespace Flah\Tools;
+namespace Umserv\Flah\Tools;
 
 use \Bitrix\Main\UserTable;
 use \Bitrix\Main\GroupTable;
@@ -13,37 +13,34 @@ class User
 	 * @param integer $userId
 	 * @return array
 	 */
-	public static function getGroups( int $userId ): array
+	public static function getGroups(int $userId): array
 	{
 		$groups = [];
-		
-		$groupIds = UserTable::getUserGroupIds( $userId );
-		
-		if ( empty( $groupIds ) )
-		{
+
+		$groupIds = UserTable::getUserGroupIds($userId);
+
+		if (empty($groupIds)) {
 			return $groups;
 		}
-		
+
 		$groupQuery = GroupTable::query()
 			->addSelect('ID')
 			->addSelect('STRING_ID')
-			->whereIn('ID', $groupIds)
-			;
+			->whereIn('ID', $groupIds);
 
 		$groupList = $groupQuery->exec();
-		
-		foreach($groupList as $group)
-		{
+
+		foreach ($groupList as $group) {
 			$code = !empty($group['STRING_ID'])
 				? $group['STRING_ID']
-				: 'ID_'.$group['ID'];
-			
+				: 'ID_' . $group['ID'];
+
 			$groups[$code] = [
 				'ID'   => $group['ID'],
 				'CODE' => $code,
 			];
 		}
-		
+
 		return $groups;
 	}
 }

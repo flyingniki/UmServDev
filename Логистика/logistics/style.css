@@ -1,0 +1,61 @@
+.container {
+  margin: 20px auto 50px;
+}
+
+.table-container {
+  display: flex;
+  column-gap: 20px;
+  align-items: flex-start;
+}
+
+.table {
+  border: 1px solid #7fa4a1;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table__caption {
+  display: none;
+}
+
+.table__th {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+  color: #3c7c91;
+}
+
+.table__td {
+  color: #3d654e;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px;
+  border: 1px solid #eee;
+}
+
+.table-task .table__td:not(:first-child) {
+  text-align: center;
+}
+
+.table-task .table__p {
+  display: inline;
+}
+
+.table-logistics .table__p {
+  color: #d8af9f;
+}
+
+.table-task .table__sup {
+  color: #d8af9f;
+}
+
+.table__tr:nth-child(odd) {
+  background: #fff;
+}
+
+.table__tr:nth-child(even) {
+  background: #f7f7f7;
+}

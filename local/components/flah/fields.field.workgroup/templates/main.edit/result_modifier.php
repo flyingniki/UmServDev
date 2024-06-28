@@ -1,6 +1,6 @@
 <?php
 
-if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
+if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 
 use Bitrix\Crm\Service\Container;
 use Bitrix\Crm\Settings\LayoutSettings;
@@ -12,15 +12,13 @@ use Bitrix\Crm\UserField\DataModifiers;
 use Bitrix\Main\Text\HtmlFilter;
 use Bitrix\UI\EntitySelector\Dialog;
 
-if(!Loader::includeModule('socialnetwork'))
-{
+if (!Loader::includeModule('socialnetwork')) {
 	return;
 }
 
 $component = $this->getComponent();
 
-if ( !$component->isDefaultMode() )
-{
+if (!$component->isDefaultMode()) {
 	return;
 }
 
@@ -35,19 +33,13 @@ $arResult['SELECTED_LIST'] = [];
 $selectorEntityTypes = [];
 
 
-if ( !is_array($arResult['value']) )
-{
+if (!is_array($arResult['value'])) {
 	$arResult['value'] = explode(';', $arResult['value']);
-}
-else
-{
+} else {
 	$values = [];
-	foreach ($arResult['value'] as $value)
-	{
-		foreach (explode(';', $value) as $val)
-		{
-			if (!empty($val))
-			{
+	foreach ($arResult['value'] as $value) {
+		foreach (explode(';', $value) as $val) {
+			if (!empty($val)) {
 				$values[$val] = $val;
 			}
 		}
@@ -57,9 +49,8 @@ else
 
 $preselectedItems = [];
 
-foreach ($arResult['value'] as $value)
-{
-	if ( empty($value) ) continue;
+foreach ($arResult['value'] as $value) {
+	if (empty($value)) continue;
 
 	$preselectedItems[] = ['project', $value];
 }

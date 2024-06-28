@@ -77,7 +77,7 @@ switch ($assignedId) {
         $assistant = 1101;
         break;
     case 1111:
-        $assistant = 338;
+        $assistant = 1118;
         break;
 
     default:
